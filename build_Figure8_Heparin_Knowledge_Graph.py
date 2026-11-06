@@ -1,4 +1,4 @@
-"""Rebuild Figure 9 and Cytoscape-compatible GraphML from Supplementary Data S1.
+"""Rebuild Figure 8 and Cytoscape-compatible GraphML from Supplementary Data S1.
 
 Dependencies: Python 3.10+, pandas, openpyxl, networkx, matplotlib, seaborn.
 All layouts are deterministic (fixed seed 20260923). The figure is an original
