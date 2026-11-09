@@ -1,0 +1,2949 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d27" for="edge" attr.name="Panel_B" attr.type="string"/>
+<key id="d26" for="edge" attr.name="Matrix_Formats" attr.type="string"/>
+<key id="d25" for="edge" attr.name="Mechanism_Group" attr.type="string"/>
+<key id="d24" for="edge" attr.name="Notes" attr.type="string"/>
+<key id="d23" for="edge" attr.name="Confidence" attr.type="string"/>
+<key id="d22" for="edge" attr.name="Supporting_Statement" attr.type="string"/>
+<key id="d21" for="edge" attr.name="PMID" attr.type="string"/>
+<key id="d20" for="edge" attr.name="DOI" attr.type="string"/>
+<key id="d19" for="edge" attr.name="Article_Title" attr.type="string"/>
+<key id="d18" for="edge" attr.name="Reference_Number" attr.type="string"/>
+<key id="d17" for="edge" attr.name="Heparin_Format" attr.type="string"/>
+<key id="d16" for="edge" attr.name="Biological_Compartment" attr.type="string"/>
+<key id="d15" for="edge" attr.name="Disease_Context" attr.type="string"/>
+<key id="d14" for="edge" attr.name="Species" attr.type="string"/>
+<key id="d13" for="edge" attr.name="Experimental_System" attr.type="string"/>
+<key id="d12" for="edge" attr.name="Evidence_Type" attr.type="string"/>
+<key id="d11" for="edge" attr.name="Evidence_Tier" attr.type="long"/>
+<key id="d10" for="edge" attr.name="Directness" attr.type="string"/>
+<key id="d9" for="edge" attr.name="Direction" attr.type="string"/>
+<key id="d8" for="edge" attr.name="Relationship" attr.type="string"/>
+<key id="d7" for="edge" attr.name="Edge_ID" attr.type="string"/>
+<key id="d6" for="node" attr.name="Notes" attr.type="string"/>
+<key id="d5" for="node" attr.name="Synonyms" attr.type="string"/>
+<key id="d4" for="node" attr.name="Definition" attr.type="string"/>
+<key id="d3" for="node" attr.name="Subtype" attr.type="string"/>
+<key id="d2" for="node" attr.name="Entity_Type" attr.type="string"/>
+<key id="d1" for="node" attr.name="Preferred_Label" attr.type="string"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">Heparin anti-inflammatory pharmacology knowledge graph</data>
+<node id="F_HEP">
+  <data key="d1">Heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Parent glycan</data>
+  <data key="d4">A heterogeneous highly sulfated glycosaminoglycan used here as the parent pharmacological concept.</data>
+  <data key="d5">heparin preparations</data>
+  <data key="d6"></data>
+</node>
+<node id="F_UFH">
+  <data key="d1">Unfractionated heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Systemic soluble format</data>
+  <data key="d4">Heterogeneous long-chain pharmaceutical heparin.</data>
+  <data key="d5">UFH</data>
+  <data key="d6"></data>
+</node>
+<node id="F_LMWH">
+  <data key="d1">Low-molecular-weight heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Systemic soluble format</data>
+  <data key="d4">Depolymerised heparin with lower mean molecular weight than UFH.</data>
+  <data key="d5">LMWH; enoxaparin; tinzaparin</data>
+  <data key="d6">Clinical effects are product- and context-dependent.</data>
+</node>
+<node id="F_NAH">
+  <data key="d1">Non-anticoagulant/N-acetylated heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Chemically modified format</data>
+  <data key="d4">Heparin modified to markedly reduce antithrombin-dependent anticoagulant activity.</data>
+  <data key="d5">NAH; N-acetylated heparin</data>
+  <data key="d6">Non-anticoagulant is a measured functional phenotype, not a structural guarantee.</data>
+</node>
+<node id="F_ODSH">
+  <data key="d1">ODSH/dociparstat</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Chemically modified format</data>
+  <data key="d4">Low 2-O,3-O-desulfated heparin with markedly reduced anticoagulant activity.</data>
+  <data key="d5">ODSH; 2-O,3-O-desulfated heparin; dociparstat</data>
+  <data key="d6">Residual PF4 interactions require separate assessment.</data>
+</node>
+<node id="F_RONE">
+  <data key="d1">Roneparstat</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Glycol-split derivative</data>
+  <data key="d4">N-acetylated glycol-split non-anticoagulant heparin developed as a heparanase inhibitor.</data>
+  <data key="d5">SST0001; roneparstat</data>
+  <data key="d6"></data>
+</node>
+<node id="F_NECU">
+  <data key="d1">Necuparanib</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Glycol-split derivative</data>
+  <data key="d4">Engineered non-anticoagulant heparin derivative evaluated in pancreatic cancer.</data>
+  <data key="d5">M402; necuparanib</data>
+  <data key="d6"></data>
+</node>
+<node id="F_DEFINED">
+  <data key="d1">Defined HS/heparin oligosaccharides</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Synthetic glycan format</data>
+  <data key="d4">Sequence- and sulfation-defined oligosaccharides used to map glycan–protein recognition.</data>
+  <data key="d5">defined HS oligosaccharides; synthetic heparin oligosaccharides</data>
+  <data key="d6"></data>
+</node>
+<node id="F_INHALED">
+  <data key="d1">Inhaled/nebulised heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Local delivery format</data>
+  <data key="d4">Heparin delivered directly to airway and alveolar compartments.</data>
+  <data key="d5">nebulised heparin; inhaled UFH</data>
+  <data key="d6"></data>
+</node>
+<node id="F_LOCAL">
+  <data key="d1">Locally retained heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Local delivery format</data>
+  <data key="d4">Heparin retained at a defined tissue or vascular site.</data>
+  <data key="d5">local heparin</data>
+  <data key="d6"></data>
+</node>
+<node id="F_IMMOB">
+  <data key="d1">Immobilised heparin</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Material-integrated format</data>
+  <data key="d4">Heparin covalently or otherwise retained on a blood-contacting surface.</data>
+  <data key="d5">surface-bound heparin</data>
+  <data key="d6"></data>
+</node>
+<node id="F_HYDRO">
+  <data key="d1">Heparin-functionalised hydrogel</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Material-integrated format</data>
+  <data key="d4">Hydrogel that retains heparin-mediated binding at a local tissue site.</data>
+  <data key="d5">starPEG-heparin hydrogel</data>
+  <data key="d6"></data>
+</node>
+<node id="F_ADS">
+  <data key="d1">Heparin-functionalised adsorbent</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Extracorporeal format</data>
+  <data key="d4">Immobilised heparin used to capture circulating inflammatory and thrombotic mediators.</data>
+  <data key="d5">heparin adsorbent</data>
+  <data key="d6"></data>
+</node>
+<node id="F_APAC">
+  <data key="d1">APAC</data>
+  <data key="d2">Heparin structure/form</data>
+  <data key="d3">Multivalent proteoglycan mimetic</data>
+  <data key="d4">Antiplatelet and anticoagulant heparin proteoglycan mimetic with multiple heparin chains on a protein core.</data>
+  <data key="d5">antiplatelet and anticoagulant heparin proteoglycan mimetic</data>
+  <data key="d6"></data>
+</node>
+<node id="S_CHAIN">
+  <data key="d1">Chain length</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Polymer length controlling multivalent and bridge-dependent interactions.</data>
+  <data key="d5">degree of polymerisation</data>
+  <data key="d6"></data>
+</node>
+<node id="S_MW">
+  <data key="d1">Molecular-weight distribution</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Distribution of chain molecular weights within a heparin preparation.</data>
+  <data key="d5">MW distribution</data>
+  <data key="d6"></data>
+</node>
+<node id="S_NS">
+  <data key="d1">N-sulfation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Sulfation of glucosamine nitrogen.</data>
+  <data key="d5">N-sulfate</data>
+  <data key="d6"></data>
+</node>
+<node id="S_2OS">
+  <data key="d1">2-O-sulfation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Sulfation at uronic-acid 2-O positions.</data>
+  <data key="d5">2-O-sulfate</data>
+  <data key="d6"></data>
+</node>
+<node id="S_6OS">
+  <data key="d1">6-O-sulfation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Sulfation at glucosamine 6-O positions.</data>
+  <data key="d5">6-O-sulfate</data>
+  <data key="d6"></data>
+</node>
+<node id="S_3OS">
+  <data key="d1">3-O-sulfation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Rare glucosamine 3-O-sulfation important in antithrombin recognition.</data>
+  <data key="d5">3-O-sulfate</data>
+  <data key="d6"></data>
+</node>
+<node id="S_ATP">
+  <data key="d1">Antithrombin-binding pentasaccharide</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Defined five-sugar motif required for high-affinity antithrombin binding.</data>
+  <data key="d5">AT-binding pentasaccharide</data>
+  <data key="d6"></data>
+</node>
+<node id="S_NAC">
+  <data key="d1">N-acetylation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Replacement of N-sulfate groups with N-acetyl groups.</data>
+  <data key="d5">N-acetylated</data>
+  <data key="d6"></data>
+</node>
+<node id="S_ODS">
+  <data key="d1">O-desulfation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Removal of selected O-sulfate groups.</data>
+  <data key="d5">O-desulfated</data>
+  <data key="d6"></data>
+</node>
+<node id="S_GLY">
+  <data key="d1">Glycol splitting</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Oxidative opening of susceptible uronic-acid residues followed by reduction.</data>
+  <data key="d5">glycol split</data>
+  <data key="d6"></data>
+</node>
+<node id="S_MULTI">
+  <data key="d1">Multivalency</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Presentation of multiple glycan chains or binding domains.</data>
+  <data key="d5">multivalent presentation</data>
+  <data key="d6"></data>
+</node>
+<node id="S_PRESENT">
+  <data key="d1">Soluble versus immobilised presentation</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Whether the glycan is freely diffusible or surface/material retained.</data>
+  <data key="d5">presentation format</data>
+  <data key="d6"></data>
+</node>
+<node id="S_ROUTE">
+  <data key="d1">Route and site of delivery</data>
+  <data key="d2">Structural determinant</data>
+  <data key="d3">Glycan or exposure feature</data>
+  <data key="d4">Administration route and anatomical exposure compartment.</data>
+  <data key="d5">delivery site; local exposure</data>
+  <data key="d6"></data>
+</node>
+<node id="T_AT">
+  <data key="d1">Antithrombin</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Coagulation regulator</data>
+  <data key="d4">Serpin that binds a specific heparin pentasaccharide.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_THR">
+  <data key="d1">Thrombin</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Coagulation protease</data>
+  <data key="d4">Central coagulation protease inhibited by antithrombin in a heparin chain-length-dependent ternary complex.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_FXA">
+  <data key="d1">Factor Xa</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Coagulation protease</data>
+  <data key="d4">Coagulation protease inhibited by heparin-activated antithrombin.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_HPSE">
+  <data key="d1">Heparanase</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Glycan-modifying enzyme</data>
+  <data key="d4">Endoglycosidase that cleaves heparan sulfate.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_HS">
+  <data key="d1">Endothelial heparan sulfate</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Endogenous glycan</data>
+  <data key="d4">Cell-surface and glycocalyx heparan sulfate that organises inflammatory mediators.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_SYN1">
+  <data key="d1">Syndecan-1</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Glycocalyx marker</data>
+  <data key="d4">Transmembrane heparan sulfate proteoglycan shed during endothelial injury.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_CCL5">
+  <data key="d1">CCL5</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Chemokine</data>
+  <data key="d4">Chemokine whose heparan-sulfate-dependent organisation can include phase separation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_CXCL8">
+  <data key="d1">CXCL8</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Chemokine</data>
+  <data key="d4">Neutrophil-recruiting chemokine also known as interleukin-8.</data>
+  <data key="d5">IL-8; interleukin-8</data>
+  <data key="d6"></data>
+</node>
+<node id="T_CCL2">
+  <data key="d1">CCL2</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Chemokine</data>
+  <data key="d4">Monocyte-recruiting chemokine also known as MCP-1.</data>
+  <data key="d5">MCP-1</data>
+  <data key="d6"></data>
+</node>
+<node id="T_PSEL">
+  <data key="d1">P-selectin</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Adhesion molecule</data>
+  <data key="d4">Selectin mediating platelet–leukocyte and endothelial leukocyte interactions.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_LSEL">
+  <data key="d1">L-selectin</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Adhesion molecule</data>
+  <data key="d4">Leukocyte selectin involved in tethering and rolling.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_HMGB1">
+  <data key="d1">HMGB1</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Danger-associated mediator</data>
+  <data key="d4">Extracellular high-mobility group box 1 protein that can carry LPS into cells.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_LPS">
+  <data key="d1">LPS</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Microbial mediator</data>
+  <data key="d4">Lipopolysaccharide, an extracellular and cytosolic innate immune stimulus.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_RAGE">
+  <data key="d1">RAGE</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Receptor</data>
+  <data key="d4">Receptor that internalises HMGB1–LPS complexes.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_TLR4">
+  <data key="d1">TLR4</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Pattern-recognition receptor</data>
+  <data key="d4">Cell-surface receptor for extracellular LPS signalling.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_IL1R1">
+  <data key="d1">IL-1R1</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Cytokine receptor</data>
+  <data key="d4">Interleukin-1 receptor type 1.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_TILRR">
+  <data key="d1">TILRR</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Receptor co-regulator</data>
+  <data key="d4">FREM1 isoform that co-regulates IL-1R1 signalling.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_HIST">
+  <data key="d1">Extracellular histones</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Danger-associated mediator</data>
+  <data key="d4">Cationic nuclear proteins released extracellularly during cell death and NET formation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_NET">
+  <data key="d1">NET-associated proteins</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Danger-associated mediator</data>
+  <data key="d4">Proteins and chromatin associated with neutrophil extracellular traps.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_PF4">
+  <data key="d1">PF4</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Platelet chemokine</data>
+  <data key="d4">Platelet factor 4 forms immunogenic complexes with heparin-like glycans.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_C1I">
+  <data key="d1">C1 inhibitor</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Complement regulator</data>
+  <data key="d4">Serpin that inhibits early classical-complement proteases.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_FH">
+  <data key="d1">Factor H</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Complement regulator</data>
+  <data key="d4">Major soluble regulator of the alternative complement pathway.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_COMP">
+  <data key="d1">Complement</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Innate immune system</data>
+  <data key="d4">Complement activation products and proteases that connect inflammation and coagulation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_PLT">
+  <data key="d1">Platelets</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Cellular mediator</data>
+  <data key="d4">Platelets that participate in thrombosis and inflammatory-cell recruitment.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_COAG">
+  <data key="d1">Coagulation factors</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Coagulation system</data>
+  <data key="d4">Proteases and cofactors that mediate fibrin generation and cross-talk with inflammation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="T_CYT">
+  <data key="d1">Inflammatory cytokines</data>
+  <data key="d2">Molecular target/mediator</data>
+  <data key="d3">Soluble mediators</data>
+  <data key="d4">TNF, IL-1β, IL-6, IFN-γ and related inflammatory cytokines.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_CYTREC">
+  <data key="d1">Cytokine–receptor engagement</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Cytokine–receptor engagement within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_NFKB">
+  <data key="d1">NF-κB/MAPK signalling</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">NF-κB/MAPK signalling within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_CHEMPRES">
+  <data key="d1">Chemokine presentation</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Chemokine presentation within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_GAGCOMP">
+  <data key="d1">Chemokine–GAG competition</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Chemokine–GAG competition within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_PHASE">
+  <data key="d1">Chemokine phase separation</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Chemokine phase separation within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_ROLL">
+  <data key="d1">Leukocyte rolling</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Leukocyte rolling within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_ADH">
+  <data key="d1">Leukocyte adhesion</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Leukocyte adhesion within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_RECRUIT">
+  <data key="d1">Leukocyte recruitment</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Leukocyte recruitment within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_HPSE">
+  <data key="d1">Heparanase inhibition</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Heparanase inhibition within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_GLYCO">
+  <data key="d1">Glycocalyx preservation</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Glycocalyx preservation within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_BARRIER">
+  <data key="d1">Endothelial barrier protection</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Endothelial barrier protection within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_HMGBLPS">
+  <data key="d1">HMGB1-assisted LPS delivery</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">HMGB1-assisted LPS delivery within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_CYTLPS">
+  <data key="d1">Cytosolic LPS sensing</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Cytosolic LPS sensing within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_CASP11">
+  <data key="d1">Caspase-11 activation</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Caspase-11 activation within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_GSDMD">
+  <data key="d1">GSDMD cleavage</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">GSDMD cleavage within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_PYRO">
+  <data key="d1">Pyroptosis</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Pyroptosis within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_HISTNEUT">
+  <data key="d1">Histone neutralisation</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Histone neutralisation within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_NETTOX">
+  <data key="d1">NET-associated toxicity</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">NET-associated toxicity within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_COMPREG">
+  <data key="d1">Complement regulation</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Complement regulation within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_PLTLEU">
+  <data key="d1">Platelet–leukocyte interaction</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Platelet–leukocyte interaction within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_COAGX">
+  <data key="d1">Coagulation–inflammation crosstalk</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Coagulation–inflammation crosstalk within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="M_IMMTH">
+  <data key="d1">Immunothrombosis</data>
+  <data key="d2">Mechanism/process</data>
+  <data key="d3">Mechanistic process</data>
+  <data key="d4">Immunothrombosis within the evidence framework.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_PLASMA">
+  <data key="d1">Circulation/plasma</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Circulation/plasma.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_GLYCO">
+  <data key="d1">Endothelial glycocalyx</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Endothelial glycocalyx.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_VASC">
+  <data key="d1">Vascular surface</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Vascular surface.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_ECM">
+  <data key="d1">Extracellular matrix</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Extracellular matrix.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_AIR">
+  <data key="d1">Alveolar/airway compartment</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Alveolar/airway compartment.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_MUC">
+  <data key="d1">Intestinal mucosa</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Intestinal mucosa.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_TME">
+  <data key="d1">Tumour microenvironment</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Tumour microenvironment.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_MAT">
+  <data key="d1">Blood–material interface</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Blood–material interface.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_EXTRA">
+  <data key="d1">Extracellular space</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Extracellular space.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="C_CYTO">
+  <data key="d1">Cytosol</data>
+  <data key="d2">Biological compartment</data>
+  <data key="d3">Compartment</data>
+  <data key="d4">Cytosol.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="D_SEPSIS">
+  <data key="d1">Sepsis and septic shock</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Sepsis and septic shock.</data>
+  <data key="d5">sepsis</data>
+  <data key="d6"></data>
+</node>
+<node id="D_ALI">
+  <data key="d1">Acute lung injury</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Acute lung injury.</data>
+  <data key="d5">ALI</data>
+  <data key="d6"></data>
+</node>
+<node id="D_ARDS">
+  <data key="d1">Acute respiratory distress syndrome</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Acute respiratory distress syndrome.</data>
+  <data key="d5">ARDS</data>
+  <data key="d6"></data>
+</node>
+<node id="D_COVID">
+  <data key="d1">COVID-19</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">COVID-19.</data>
+  <data key="d5">SARS-CoV-2 disease</data>
+  <data key="d6"></data>
+</node>
+<node id="D_PANC">
+  <data key="d1">Acute pancreatitis</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Acute pancreatitis.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="D_UC">
+  <data key="d1">Ulcerative colitis</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Ulcerative colitis.</data>
+  <data key="d5">UC</data>
+  <data key="d6"></data>
+</node>
+<node id="D_CAI">
+  <data key="d1">Cancer-associated inflammation</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Cancer-associated inflammation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="D_CAT">
+  <data key="d1">Cancer-associated thrombosis</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Cancer-associated thrombosis.</data>
+  <data key="d5">CAT</data>
+  <data key="d6"></data>
+</node>
+<node id="D_BIO">
+  <data key="d1">Vascular/biomaterial-associated inflammation</data>
+  <data key="d2">Disease/clinical context</data>
+  <data key="d3">Disease or setting</data>
+  <data key="d4">Vascular/biomaterial-associated inflammation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_CYT">
+  <data key="d1">Cytokine production</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Cytokine production.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_PERM">
+  <data key="d1">Endothelial permeability</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Endothelial permeability.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_INFIL">
+  <data key="d1">Leukocyte infiltration</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Leukocyte infiltration.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_INJ">
+  <data key="d1">Tissue injury</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Tissue injury.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_ORGAN">
+  <data key="d1">Organ dysfunction</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Organ dysfunction.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_THROMB">
+  <data key="d1">Thrombosis</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Thrombosis.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_MORT">
+  <data key="d1">Mortality</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Mortality.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_BLEED">
+  <data key="d1">Bleeding</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Bleeding.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_HIT">
+  <data key="d1">Heparin-induced thrombocytopenia</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Heparin-induced thrombocytopenia.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_PF4IC">
+  <data key="d1">PF4/heparin immune-complex formation</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">PF4/heparin immune-complex formation.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_VTE">
+  <data key="d1">Venous thromboembolism</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Venous thromboembolism.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<node id="O_SURV">
+  <data key="d1">Overall survival</data>
+  <data key="d2">Outcome/safety</data>
+  <data key="d3">Outcome or safety endpoint</data>
+  <data key="d4">Overall survival.</data>
+  <data key="d5"></data>
+  <data key="d6"></data>
+</node>
+<edge source="F_HEP" target="T_CYT" id="E017">
+  <data key="d7">E017</data>
+  <data key="d8">competes_with</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Cellular assays with molecular modelling</data>
+  <data key="d13">LPS-stimulated human monocytes; cytokine–receptor modelling</data>
+  <data key="d14">Human cells / in silico</data>
+  <data key="d15">systemic inflammation</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">UFH; LMWH</data>
+  <data key="d18">5; 6</data>
+  <data key="d19">Low-molecular weight and unfractionated heparins induce a downregulation of inflammation: decreased levels of proinflammatory cytokines and nuclear factor-kappaB in LPS-stimulated human monocytes. | Molecular Mechanism of the Anti-Inflammatory Action of Heparin.</data>
+  <data key="d20">10.1111/j.1365-2141.2006.05959.x; 10.3390/ijms221910730</data>
+  <data key="d21">16512830; 34639073</data>
+  <data key="d22">Heparin preparations reduced inflammatory cytokine output, with molecular modelling supporting extracellular cytokine/receptor competition.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">cytokine/receptor signalling</data>
+  <data key="d26">UFH;LMWH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_HEP" target="M_NFKB" id="E018">
+  <data key="d7">E018</data>
+  <data key="d8">reduces</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Cellular signalling assays</data>
+  <data key="d13">Human monocytes and endothelial cells</data>
+  <data key="d14">Human cells</data>
+  <data key="d15">endotoxin-associated inflammation</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">UFH; LMWH</data>
+  <data key="d18">5; 7</data>
+  <data key="d19">Low-molecular weight and unfractionated heparins induce a downregulation of inflammation: decreased levels of proinflammatory cytokines and nuclear factor-kappaB in LPS-stimulated human monocytes. | Heparin alleviates LPS-induced endothelial injury by regulating the TLR4/MyD88 signaling pathway.</data>
+  <data key="d20">10.1111/j.1365-2141.2006.05959.x; 10.3892/etm.2021.10833</data>
+  <data key="d21">16512830; 34650645</data>
+  <data key="d22">UFH or LMWH reduced NF-κB-related inflammatory signalling in LPS-stimulated cellular systems.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24">Reduced downstream signalling does not establish direct binding to an intracellular pathway component.</data>
+  <data key="d25">cytokine/receptor signalling</data>
+  <data key="d26">UFH;LMWH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_HEP" target="T_CXCL8" id="E019">
+  <data key="d7">E019</data>
+  <data key="d8">competes_with</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical receptor-activation assay</data>
+  <data key="d13">Purified CXCL8–heparin complexes and receptor assays</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15">neutrophil recruitment</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">UFH</data>
+  <data key="d18">47</data>
+  <data key="d19">Heparin-bound chemokine CXCL8 monomer and dimer are impaired for CXCR1 and CXCR2 activation: implications for gradients and neutrophil trafficking.</data>
+  <data key="d20">10.1098/rsob.170168</data>
+  <data key="d21">29118271</data>
+  <data key="d22">Heparin-bound CXCL8 monomer and dimer showed impaired CXCR1/CXCR2 activation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">chemokine organization</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_HEP" target="M_PHASE" id="E020">
+  <data key="d7">E020</data>
+  <data key="d8">disrupts</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Biophysical, cellular and mouse experiments</data>
+  <data key="d13">CCL5 condensates, cell migration and inflammatory recruitment</data>
+  <data key="d14">Mouse and in vitro</data>
+  <data key="d15">inflammatory-cell recruitment</data>
+  <data key="d16">extracellular matrix</data>
+  <data key="d17">UFH / heparin</data>
+  <data key="d18">48</data>
+  <data key="d19">Heparan sulfate-dependent phase separation of CCL5 and its chemotactic activity.</data>
+  <data key="d20">10.7554/elife.93871</data>
+  <data key="d21">38949655</data>
+  <data key="d22">Soluble heparin disrupted HS-dependent CCL5 phase separation and reduced recruitment in vivo.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">chemokine organization</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_HEP" target="T_HIST" id="E041">
+  <data key="d7">E041</data>
+  <data key="d8">neutralizes</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Human whole-blood ex vivo study</data>
+  <data key="d13">Histone-stimulated whole blood</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">sterile inflammation</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">UFH; NAH</data>
+  <data key="d18">35</data>
+  <data key="d19">Heparin and non-anticoagulant heparin attenuate histone-induced inflammatory responses in whole blood.</data>
+  <data key="d20">10.1371/journal.pone.0233644</data>
+  <data key="d21">32469940</data>
+  <data key="d22">Heparin and non-anticoagulant derivatives attenuated histone-induced cytokine and tissue-factor responses in human whole blood.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">UFH;NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_HEP" target="T_NET" id="E045">
+  <data key="d7">E045</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Potentially harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Neutrophil cellular study</data>
+  <data key="d13">Isolated neutrophils</data>
+  <data key="d14">Human cells</data>
+  <data key="d15">NET-associated inflammation</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">UFH</data>
+  <data key="d18">78</data>
+  <data key="d19">Heparin induces neutrophil elastase-dependent vital and lytic NET formation.</data>
+  <data key="d20">10.1093/intimm/dxz084</data>
+  <data key="d21">31879779</data>
+  <data key="d22">Heparin induced elastase-dependent vital and lytic NET formation under the tested conditions.</data>
+  <data key="d23">High</data>
+  <data key="d24">This edge is retained as a context-dependent safety/mechanistic counter-signal.</data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_HEP" target="M_HMGBLPS" id="E053">
+  <data key="d7">E053</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and murine mechanistic studies</data>
+  <data key="d13">Macrophages and sepsis</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">UFH; NAH</data>
+  <data key="d18">56; 84</data>
+  <data key="d19">Heparin prevents caspase-11-dependent septic lethality independent of anticoagulant properties. | Heparin inhibits the inflammatory response induced by LPS and HMGB1 by blocking the binding of HMGB1 to the surface of macrophages.</data>
+  <data key="d20">10.1016/j.immuni.2021.01.007; 10.1016/j.cyto.2014.12.010</data>
+  <data key="d21">33561388; 25562836</data>
+  <data key="d22">Heparin blocked HMGB1 association with macrophages and inhibited HMGB1-assisted LPS inflammatory amplification.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">UFH;NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_HEP" target="T_C1I" id="E059">
+  <data key="d7">E059</data>
+  <data key="d8">potentiates</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical complement assays</data>
+  <data key="d13">Purified C1 inhibitor and serum complement</data>
+  <data key="d14">Human proteins / serum</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">85; 86</data>
+  <data key="d19">A postulated mechanism for heparin's potentiation of C1 inhibitor function. | Heparin binding and augmentation of C1 inhibitor activity.</data>
+  <data key="d20">10.1016/0161-5890(82)90342-x; 10.1006/abbi.1998.0996</data>
+  <data key="d21">7099168; 9882449</data>
+  <data key="d22">Heparin enhanced C1-inhibitor activity and reduced classical-complement activation in biochemical systems.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">complement regulation</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_HEP" target="T_FH" id="E060">
+  <data key="d7">E060</data>
+  <data key="d8">potentiates</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical complement assay</data>
+  <data key="d13">Factor H and alternative pathway</data>
+  <data key="d14">Human proteins / serum</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">87</data>
+  <data key="d19">Potentiation of factor H by heparin: a rate-limiting mechanism for inhibition of the alternative complement pathway.</data>
+  <data key="d20">10.1016/0161-5890(83)90139-6</data>
+  <data key="d21">6228720</data>
+  <data key="d22">Heparin potentiated factor H and inhibited fluid-phase alternative-pathway activation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">complement regulation</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_UFH" target="S_CHAIN" id="E001">
+  <data key="d7">E001</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical fractionation and activity characterisation</data>
+  <data key="d13">Purified pharmaceutical heparin fractions</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">14</data>
+  <data key="d19">Structural and activity variability of fractions with different charge density and chain length from pharmaceutical heparins.</data>
+  <data key="d20">10.1007/s10719-017-9774-7</data>
+  <data key="d21">28555433</data>
+  <data key="d22">Higher-molecular-weight heparin fractions contain longer chains and broader multivalent binding capacity.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_UFH" target="M_GLYCO" id="E035">
+  <data key="d7">E035</data>
+  <data key="d8">preserves</data>
+  <data key="d9">Protective</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Animal endotoxaemia experiment</data>
+  <data key="d13">Pulmonary endothelium after LPS</data>
+  <data key="d14">Mouse</data>
+  <data key="d15">sepsis-associated lung injury</data>
+  <data key="d16">endothelial glycocalyx</data>
+  <data key="d17">UFH</data>
+  <data key="d18">71</data>
+  <data key="d19">Both UFH and NAH alleviate shedding of endothelial glycocalyx and coagulopathy in LPS-induced sepsis.</data>
+  <data key="d20">10.3892/etm.2019.8285</data>
+  <data key="d21">32010252</data>
+  <data key="d22">UFH reduced glycocalyx shedding and coagulopathy in LPS-induced sepsis.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_UFH" target="D_SEPSIS" id="E073">
+  <data key="d7">E073</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Mixed</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Meta-analyses and retrospective cohort</data>
+  <data key="d13">Adults with sepsis or sepsis-associated DIC</data>
+  <data key="d14">Human</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">systemic circulation</data>
+  <data key="d17">UFH</data>
+  <data key="d18">89; 90; 91</data>
+  <data key="d19">Unfractionated heparin improves the clinical efficacy in adult sepsis patients: a systematic review and meta-analysis. | Heparin therapy in sepsis and sepsis-associated disseminated intravascular coagulation: a systematic review and meta-analysis. | Unfractionated Heparin Enhances Sepsis Prognosis Through Inhibiting Drp1-Mediated Mitochondrial Quality Imbalance.</data>
+  <data key="d20">10.1186/s12871-021-01545-w; 10.1186/s12959-024-00653-0; 10.1002/advs.202407705</data>
+  <data key="d21">35062871; 39350146; 39447130</data>
+  <data key="d22">Clinical studies reported heterogeneous or inconsistent mortality associations despite mechanistic rationale.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_UFH" target="O_BLEED" id="E088">
+  <data key="d7">E088</data>
+  <data key="d8">increases_risk_of</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">5</data>
+  <data key="d12">Meta-analyses of clinical studies</data>
+  <data key="d13">Adults with sepsis</data>
+  <data key="d14">Human</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">systemic circulation</data>
+  <data key="d17">UFH</data>
+  <data key="d18">89; 90</data>
+  <data key="d19">Unfractionated heparin improves the clinical efficacy in adult sepsis patients: a systematic review and meta-analysis. | Heparin therapy in sepsis and sepsis-associated disseminated intravascular coagulation: a systematic review and meta-analysis.</data>
+  <data key="d20">10.1186/s12871-021-01545-w; 10.1186/s12959-024-00653-0</data>
+  <data key="d21">35062871; 39350146</data>
+  <data key="d22">Bleeding remains a treatment-related safety endpoint, although estimates varied across sepsis studies.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_UFH" target="O_HIT" id="E089">
+  <data key="d7">E089</data>
+  <data key="d8">increases_risk_of</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">4</data>
+  <data key="d12">Human HIT material and experimental models</data>
+  <data key="d13">PF4/heparin immune-complex setting</data>
+  <data key="d14">Human / mouse</data>
+  <data key="d15">HIT</data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">79</data>
+  <data key="d19">Inhibition of NADPH oxidase blocks NETosis and reduces thrombosis in heparin-induced thrombocytopenia.</data>
+  <data key="d20">10.1182/bloodadvances.2020003093</data>
+  <data key="d21">34478504</data>
+  <data key="d22">Heparin exposure can support PF4 immune-complex formation and HIT-associated NETosis and thrombosis.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">UFH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_LMWH" target="S_MW" id="E002">
+  <data key="d7">E002</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical fractionation and activity characterisation</data>
+  <data key="d13">Heparin fractions</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">LMWH</data>
+  <data key="d18">14</data>
+  <data key="d19">Structural and activity variability of fractions with different charge density and chain length from pharmaceutical heparins.</data>
+  <data key="d20">10.1007/s10719-017-9774-7</data>
+  <data key="d21">28555433</data>
+  <data key="d22">Molecular-weight distribution distinguishes lower-molecular-weight heparin fractions from longer UFH chains.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_LMWH" target="D_PANC" id="E080">
+  <data key="d7">E080</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Favourable</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Systematic reviews and meta-analyses</data>
+  <data key="d13">Patients with acute pancreatitis</data>
+  <data key="d14">Human</data>
+  <data key="d15">acute pancreatitis</data>
+  <data key="d16">systemic circulation</data>
+  <data key="d17">LMWH</data>
+  <data key="d18">100; 101</data>
+  <data key="d19">Low molecular weight heparin decreases mortality and major complication rates in moderately severe and severe acute pancreatitis-a systematic review and meta-analysis. | Effectiveness and safety of low molecular weight heparin in the management of acute pancreatitis: a systematic review and meta-analysis.</data>
+  <data key="d20">10.3389/fmed.2023.1241301; 10.1186/s13017-024-00558-3</data>
+  <data key="d21">38020092; 39256790</data>
+  <data key="d22">Meta-analyses associated LMWH with lower mortality and complication rates, particularly in more severe disease.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">LMWH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_LMWH" target="D_UC" id="E081">
+  <data key="d7">E081</data>
+  <data key="d8">fails_to_improve</data>
+  <data key="d9">Neutral/negative</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised placebo-controlled trial</data>
+  <data key="d13">Mild-to-moderate active ulcerative colitis</data>
+  <data key="d14">Human</data>
+  <data key="d15">ulcerative colitis</data>
+  <data key="d16">systemic / subcutaneous</data>
+  <data key="d17">LMWH</data>
+  <data key="d18">102</data>
+  <data key="d19">Low molecular weight heparin (tinzaparin) vs. placebo in the treatment of mild to moderately active ulcerative colitis.</data>
+  <data key="d20">10.1111/j.1365-2036.2004.01926.x</data>
+  <data key="d21">15080848</data>
+  <data key="d22">Subcutaneous tinzaparin did not improve overall disease activity or secondary outcomes.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26">LMWH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_LMWH" target="O_VTE" id="E083">
+  <data key="d7">E083</data>
+  <data key="d8">improves</data>
+  <data key="d9">Favourable</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised phase III cancer trials</data>
+  <data key="d13">Patients with small-cell or lung cancer</data>
+  <data key="d14">Human</data>
+  <data key="d15">cancer-associated thrombosis</data>
+  <data key="d16">systemic circulation</data>
+  <data key="d17">LMWH</data>
+  <data key="d18">105; 106</data>
+  <data key="d19">Randomized phase III trial of low-molecular-weight heparin enoxaparin in addition to standard treatment in small-cell lung cancer: the RASTEN trial. | Randomized Phase III Trial of Standard Therapy Plus Low Molecular Weight Heparin in Patients With Lung Cancer: FRAGMATIC Trial.</data>
+  <data key="d20">10.1093/annonc/mdx716; 10.1200/jco.2015.64.0268</data>
+  <data key="d21">29106448; 26700124</data>
+  <data key="d22">LMWH reduced venous thromboembolism in cancer trials.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">LMWH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_LMWH" target="O_SURV" id="E084">
+  <data key="d7">E084</data>
+  <data key="d8">fails_to_improve</data>
+  <data key="d9">Neutral/negative</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised phase III cancer trials</data>
+  <data key="d13">Patients with small-cell or lung cancer</data>
+  <data key="d14">Human</data>
+  <data key="d15">cancer-associated inflammation</data>
+  <data key="d16">tumour microenvironment / systemic</data>
+  <data key="d17">LMWH</data>
+  <data key="d18">105; 106</data>
+  <data key="d19">Randomized phase III trial of low-molecular-weight heparin enoxaparin in addition to standard treatment in small-cell lung cancer: the RASTEN trial. | Randomized Phase III Trial of Standard Therapy Plus Low Molecular Weight Heparin in Patients With Lung Cancer: FRAGMATIC Trial.</data>
+  <data key="d20">10.1093/annonc/mdx716; 10.1200/jco.2015.64.0268</data>
+  <data key="d21">29106448; 26700124</data>
+  <data key="d22">Antithrombotic benefit did not translate into improved overall or progression-free survival.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">LMWH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NAH" target="S_NAC" id="E003">
+  <data key="d7">E003</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical structure–activity study</data>
+  <data key="d13">Chemically modified heparins</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">37</data>
+  <data key="d19">Modulation of the heparanase-inhibiting activity of heparin through selective desulfation, graded N-acetylation, and glycol splitting.</data>
+  <data key="d20">10.1074/jbc.m414217200</data>
+  <data key="d21">15647251</data>
+  <data key="d22">N-acetylation was used to reduce anticoagulant activity while testing retention of heparanase inhibition.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_NAH" target="T_PSEL" id="E026">
+  <data key="d7">E026</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Flow adhesion and in vivo acute-inflammation experiments</data>
+  <data key="d13">Selectin-mediated adhesion and leukocyte recruitment</data>
+  <data key="d14">Mouse / cellular</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">64</data>
+  <data key="d19">Inhibition of selectin-mediated cell adhesion and prevention of acute inflammation by nonanticoagulant sulfated saccharides. Studies with carboxyl-reduced and sulfated heparin and with trestatin a sulfate.</data>
+  <data key="d20">10.1074/jbc.m001257200</data>
+  <data key="d21">10944519</data>
+  <data key="d22">Non-anticoagulant sulfated saccharides inhibited P-selectin-mediated adhesion and acute inflammation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NAH" target="T_LSEL" id="E027">
+  <data key="d7">E027</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Flow adhesion and in vivo acute-inflammation experiments</data>
+  <data key="d13">Selectin-mediated adhesion and leukocyte recruitment</data>
+  <data key="d14">Mouse / cellular</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">64</data>
+  <data key="d19">Inhibition of selectin-mediated cell adhesion and prevention of acute inflammation by nonanticoagulant sulfated saccharides. Studies with carboxyl-reduced and sulfated heparin and with trestatin a sulfate.</data>
+  <data key="d20">10.1074/jbc.m001257200</data>
+  <data key="d21">10944519</data>
+  <data key="d22">Non-anticoagulant sulfated saccharides inhibited L-selectin-mediated adhesion.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NAH" target="T_HPSE" id="E032">
+  <data key="d7">E032</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical enzyme-inhibition study</data>
+  <data key="d13">Purified heparanase and modified heparins</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">37</data>
+  <data key="d19">Modulation of the heparanase-inhibiting activity of heparin through selective desulfation, graded N-acetylation, and glycol splitting.</data>
+  <data key="d20">10.1074/jbc.m414217200</data>
+  <data key="d21">15647251</data>
+  <data key="d22">N-acetylation retained heparanase inhibition better than extensive glycol splitting in the tested derivatives.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NAH" target="M_GLYCO" id="E036">
+  <data key="d7">E036</data>
+  <data key="d8">preserves</data>
+  <data key="d9">Protective</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Animal transplant and endotoxaemia experiments</data>
+  <data key="d13">Lung graft and pulmonary endothelium</data>
+  <data key="d14">Rat / mouse</data>
+  <data key="d15">lung ischaemia-reperfusion and sepsis</data>
+  <data key="d16">endothelial glycocalyx</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">70; 71</data>
+  <data key="d19">Heparanase inhibition preserves the endothelial glycocalyx in lung grafts and improves lung preservation and transplant outcomes. | Both UFH and NAH alleviate shedding of endothelial glycocalyx and coagulopathy in LPS-induced sepsis.</data>
+  <data key="d20">10.1038/s41598-021-91777-0; 10.3892/etm.2019.8285</data>
+  <data key="d21">34112915; 32010252</data>
+  <data key="d22">N-acetylated heparin preserved the endothelial glycocalyx despite markedly reduced anticoagulant activity.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NAH" target="T_HIST" id="E042">
+  <data key="d7">E042</data>
+  <data key="d8">neutralizes</data>
+  <data key="d9">Protective</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular cytotoxicity and murine sepsis experiments</data>
+  <data key="d13">Histone-exposed cells and sepsis model</data>
+  <data key="d14">Mouse / in vitro</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">76</data>
+  <data key="d19">Nonanticoagulant heparin prevents histone-mediated cytotoxicity in vitro and improves survival in sepsis.</data>
+  <data key="d20">10.1182/blood-2013-07-514984</data>
+  <data key="d21">24264231</data>
+  <data key="d22">Non-anticoagulant heparin bound extracellular histones, prevented cytotoxicity and improved survival in sepsis.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NAH" target="T_HMGB1" id="E052">
+  <data key="d7">E052</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Biochemical, cellular and murine sepsis experiments</data>
+  <data key="d13">HMGB1–LPS interaction and septic lethality</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">NAH / N-acetylated heparin</data>
+  <data key="d18">56</data>
+  <data key="d19">Heparin prevents caspase-11-dependent septic lethality independent of anticoagulant properties.</data>
+  <data key="d20">10.1016/j.immuni.2021.01.007</data>
+  <data key="d21">33561388</data>
+  <data key="d22">Chemically modified non-anticoagulant heparin inhibited HMGB1–LPS interaction and protected against septic lethality independently of anticoagulation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_ODSH" target="S_ODS" id="E004">
+  <data key="d7">E004</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Animal pharmacology and chemical modification</data>
+  <data key="d13">Rat pulmonary inflammation model</data>
+  <data key="d14">Rat</data>
+  <data key="d15">acute lung inflammation</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">ODSH / dociparstat</data>
+  <data key="d18">135</data>
+  <data key="d19">Selective O-desulfation produces nonanticoagulant heparin that retains pharmacological activity in the lung.</data>
+  <data key="d20">10.1016/s0022-3565(24)36816-8</data>
+  <data key="d21">9223556</data>
+  <data key="d22">Selective O-desulfation generated a minimally anticoagulant heparin retaining pulmonary pharmacological activity.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_ODSH" target="O_PF4IC" id="E049">
+  <data key="d7">E049</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">In vitro PF4–heparin complex studies</data>
+  <data key="d13">PF4 complexes and platelet activation</data>
+  <data key="d14">Human in vitro</data>
+  <data key="d15">HIT</data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">ODSH / dociparstat</data>
+  <data key="d18">133; 134</data>
+  <data key="d19">Heparin-induced thrombocytopenia: in vitro studies on the interaction of dabigatran, rivaroxaban, and low-sulfated heparin, with platelet factor 4 and anti-PF4/heparin antibodies. | Disruption of PF4/H multimolecular complex formation with a minimally anticoagulant heparin (ODSH).</data>
+  <data key="d20">10.1182/blood-2011-05-353391; 10.1160/th11-11-0795</data>
+  <data key="d21">22049520; 22318669</data>
+  <data key="d22">ODSH reduced PF4 binding and disrupted PF4/heparin complexes, although residual interactions remained measurable.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">ODSH / dociparstat</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_ODSH" target="D_ALI" id="E075">
+  <data key="d7">E075</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Favourable</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Mouse LPS-induced acute lung injury</data>
+  <data key="d13">Experimental lung injury</data>
+  <data key="d14">Mouse</data>
+  <data key="d15">acute lung injury</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">ODSH / dociparstat</data>
+  <data key="d18">92</data>
+  <data key="d19">Protective Effect of Low 2-O, 3-O Desulfated Heparin (ODSH) Against LPS-Induced Acute Lung Injury in Mice.</data>
+  <data key="d20">10.3390/biom15091232</data>
+  <data key="d21">41008539</data>
+  <data key="d22">ODSH reduced inflammatory-cell infiltration and vascular leakage while preserving barrier function in experimental ALI.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">ODSH / dociparstat</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_ODSH" target="T_PF4" id="E090">
+  <data key="d7">E090</data>
+  <data key="d8">has_residual_activity_against</data>
+  <data key="d9">Residual interaction</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">In vitro PF4 binding and platelet assays</data>
+  <data key="d13">PF4–heparin complexes</data>
+  <data key="d14">Human in vitro</data>
+  <data key="d15">HIT risk assessment</data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">ODSH / dociparstat</data>
+  <data key="d18">133; 134</data>
+  <data key="d19">Heparin-induced thrombocytopenia: in vitro studies on the interaction of dabigatran, rivaroxaban, and low-sulfated heparin, with platelet factor 4 and anti-PF4/heparin antibodies. | Disruption of PF4/H multimolecular complex formation with a minimally anticoagulant heparin (ODSH).</data>
+  <data key="d20">10.1182/blood-2011-05-353391; 10.1160/th11-11-0795</data>
+  <data key="d21">22049520; 22318669</data>
+  <data key="d22">Despite minimal anticoagulant activity, ODSH retained measurable PF4-related interactions, although it disrupted immunogenic complexes.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">ODSH / dociparstat</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_RONE" target="S_GLY" id="E005">
+  <data key="d7">E005</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Structural characterisation</data>
+  <data key="d13">Purified derivative</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15">cancer-associated inflammation</data>
+  <data key="d16">tumour microenvironment</data>
+  <data key="d17">roneparstat</data>
+  <data key="d18">110</data>
+  <data key="d19">Structural features of heparanase-inhibiting non-anticoagulant heparin derivative Roneparstat.</data>
+  <data key="d20">10.1016/j.carbpol.2016.09.032</data>
+  <data key="d21">27842848</data>
+  <data key="d22">Roneparstat is an N-acetylated glycol-split heparin derivative with heparanase-inhibiting structural features.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_RONE" target="T_HPSE" id="E033">
+  <data key="d7">E033</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Enzyme kinetics and molecular modelling</data>
+  <data key="d13">Human heparanase</data>
+  <data key="d14">Human protein / in silico</data>
+  <data key="d15">cancer-associated inflammation</data>
+  <data key="d16">tumour microenvironment</data>
+  <data key="d17">roneparstat</data>
+  <data key="d18">112</data>
+  <data key="d19">Kinetic analysis and molecular modeling of the inhibition mechanism of roneparstat (SST0001) on human heparanase.</data>
+  <data key="d20">10.1093/glycob/cww003</data>
+  <data key="d21">26762172</data>
+  <data key="d22">Roneparstat directly inhibited human heparanase in kinetic and molecular modelling experiments.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">roneparstat</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NECU" target="S_GLY" id="E006">
+  <data key="d7">E006</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">5</data>
+  <data key="d12">Phase I clinical product characterisation</data>
+  <data key="d13">Patients with metastatic pancreatic cancer</data>
+  <data key="d14">Human</data>
+  <data key="d15">cancer-associated inflammation</data>
+  <data key="d16">tumour microenvironment</data>
+  <data key="d17">necuparanib</data>
+  <data key="d18">125</data>
+  <data key="d19">Safety, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity of Necuparanib Combined with Nab-Paclitaxel and Gemcitabine in Patients with Metastatic Pancreatic Cancer: Phase I Results.</data>
+  <data key="d20">10.1634/theoncologist.2017-0472</data>
+  <data key="d21">29158367</data>
+  <data key="d22">The clinical necuparanib preparation is an engineered non-anticoagulant heparin derivative incorporating glycol-split structures.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NECU" target="O_SURV" id="E085">
+  <data key="d7">E085</data>
+  <data key="d8">fails_to_improve</data>
+  <data key="d9">Neutral/negative</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised phase II trial</data>
+  <data key="d13">Metastatic pancreatic adenocarcinoma</data>
+  <data key="d14">Human</data>
+  <data key="d15">cancer-associated inflammation</data>
+  <data key="d16">tumour microenvironment</data>
+  <data key="d17">necuparanib</data>
+  <data key="d18">107</data>
+  <data key="d19">Randomised phase II trial of gemcitabine and nab-paclitaxel with necuparanib or placebo in untreated metastatic pancreas ductal adenocarcinoma.</data>
+  <data key="d20">10.1016/j.ejca.2020.03.005</data>
+  <data key="d21">32361265</data>
+  <data key="d22">The necuparanib trial stopped early for futility and did not improve overall survival.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">necuparanib</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_NECU" target="D_CAI" id="E086">
+  <data key="d7">E086</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Neutral/negative</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Phase I and randomised phase II trials</data>
+  <data key="d13">Metastatic pancreatic cancer</data>
+  <data key="d14">Human</data>
+  <data key="d15">cancer-associated inflammation</data>
+  <data key="d16">tumour microenvironment</data>
+  <data key="d17">necuparanib</data>
+  <data key="d18">107; 125</data>
+  <data key="d19">Randomised phase II trial of gemcitabine and nab-paclitaxel with necuparanib or placebo in untreated metastatic pancreas ductal adenocarcinoma. | Safety, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity of Necuparanib Combined with Nab-Paclitaxel and Gemcitabine in Patients with Metastatic Pancreatic Cancer: Phase I Results.</data>
+  <data key="d20">10.1016/j.ejca.2020.03.005; 10.1634/theoncologist.2017-0472</data>
+  <data key="d21">32361265; 29158367</data>
+  <data key="d22">Clinical testing established feasibility but the randomised trial did not demonstrate survival benefit.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">necuparanib</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_DEFINED" target="S_6OS" id="E007">
+  <data key="d7">E007</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Chemoenzymatic synthesis and binding assays</data>
+  <data key="d13">Defined HS oligosaccharide library</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">defined HS/heparin oligosaccharides</data>
+  <data key="d18">119</data>
+  <data key="d19">Efficient platform for synthesizing comprehensive heparan sulfate oligosaccharide libraries for decoding glycosaminoglycan-protein interactions.</data>
+  <data key="d20">10.1038/s41557-023-01248-4</data>
+  <data key="d21">37349377</data>
+  <data key="d22">Defined oligosaccharide libraries varied sulfation sequence, including 6-O-sulfation, to map protein recognition.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_DEFINED" target="T_CXCL8" id="E024">
+  <data key="d7">E024</data>
+  <data key="d8">binds</data>
+  <data key="d9">Context-dependent</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Defined oligosaccharide binding assays</data>
+  <data key="d13">Chemoenzymatic HS oligosaccharide library</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">defined HS/heparin oligosaccharides</data>
+  <data key="d18">119</data>
+  <data key="d19">Efficient platform for synthesizing comprehensive heparan sulfate oligosaccharide libraries for decoding glycosaminoglycan-protein interactions.</data>
+  <data key="d20">10.1038/s41557-023-01248-4</data>
+  <data key="d21">37349377</data>
+  <data key="d22">Defined sulfation sequences produced distinguishable CXCL8 recognition profiles.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">chemokine organization</data>
+  <data key="d26">defined HS/heparin oligosaccharides</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_INHALED" target="S_ROUTE" id="E010">
+  <data key="d7">E010</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Local exposure</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised controlled trial</data>
+  <data key="d13">Mechanically ventilated patients with or at risk of ARDS</data>
+  <data key="d14">Human</data>
+  <data key="d15">ARDS</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">93</data>
+  <data key="d19">Nebulised heparin for patients with or at risk of acute respiratory distress syndrome: a multicentre, randomised, double-blind, placebo-controlled phase 3 trial.</data>
+  <data key="d20">10.1016/s2213-2600(20)30470-7</data>
+  <data key="d21">33493448</data>
+  <data key="d22">Nebulised delivery placed heparin in the pulmonary compartment in a phase III trial.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_INHALED" target="C_AIR" id="E011">
+  <data key="d7">E011</data>
+  <data key="d8">localizes_to</data>
+  <data key="d9">Localisation</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised controlled trial</data>
+  <data key="d13">Nebulised administration</data>
+  <data key="d14">Human</data>
+  <data key="d15">ARDS</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">93</data>
+  <data key="d19">Nebulised heparin for patients with or at risk of acute respiratory distress syndrome: a multicentre, randomised, double-blind, placebo-controlled phase 3 trial.</data>
+  <data key="d20">10.1016/s2213-2600(20)30470-7</data>
+  <data key="d21">33493448</data>
+  <data key="d22">Nebulised heparin was administered directly to the airways and alveolar compartment.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_INHALED" target="D_ARDS" id="E076">
+  <data key="d7">E076</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Mixed</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised trial and meta-analysis</data>
+  <data key="d13">Adults with acute respiratory failure or at risk of ARDS</data>
+  <data key="d14">Human</data>
+  <data key="d15">ARDS / acute respiratory failure</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">93; 95</data>
+  <data key="d19">Nebulised heparin for patients with or at risk of acute respiratory distress syndrome: a multicentre, randomised, double-blind, placebo-controlled phase 3 trial. | Nebulized Heparin in Adults With Acute Respiratory Failure: A Meta-Analysis of Randomized Trials.</data>
+  <data key="d20">10.1016/s2213-2600(20)30470-7; 10.1097/ccm.0000000000007161</data>
+  <data key="d21">33493448; 42148826</data>
+  <data key="d22">The CHARLI primary endpoint was neutral, while pooled respiratory-failure trials suggested favourable secondary or mortality signals.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">inhaled/local heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_INHALED" target="D_COVID" id="E078">
+  <data key="d7">E078</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Favourable</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Meta-trial and phase I/II randomised trial</data>
+  <data key="d13">Hospitalised patients with COVID-19</data>
+  <data key="d14">Human</data>
+  <data key="d15">COVID-19</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">98; 99</data>
+  <data key="d19">Efficacy of inhaled nebulised unfractionated heparin to prevent intubation or death in hospitalised patients with COVID-19: an investigator-initiated international meta-trial of randomised clinical studies. | Nebulized enriched heparin improves respiratory parameters in patients with COVID-19: a phase I/II randomized and triple-blind clinical trial.</data>
+  <data key="d20">10.1016/j.eclinm.2025.103339; 10.1038/s41598-024-70064-8</data>
+  <data key="d21">41181828; 39191809</data>
+  <data key="d22">Inhaled heparin trials reported favourable respiratory or composite clinical signals.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">inhaled/local heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_LOCAL" target="C_VASC" id="E012">
+  <data key="d7">E012</data>
+  <data key="d8">localizes_to</data>
+  <data key="d9">Localisation</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Intravital microscopy</data>
+  <data key="d13">Mesenteric venules</data>
+  <data key="d14">Rat</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">63</data>
+  <data key="d19">Inhibitory effect of locally administered heparin on leukocyte rolling and chemoattractant-induced firm adhesion in rat mesenteric venules in vivo.</data>
+  <data key="d20">10.1038/sj.bjp.0701454</data>
+  <data key="d21">9384507</data>
+  <data key="d22">Locally administered heparin acted at mesenteric venules during leukocyte rolling and firm adhesion.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_LOCAL" target="M_ROLL" id="E028">
+  <data key="d7">E028</data>
+  <data key="d8">reduces</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Intravital microscopy</data>
+  <data key="d13">Mesenteric venules</data>
+  <data key="d14">Rat</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">63</data>
+  <data key="d19">Inhibitory effect of locally administered heparin on leukocyte rolling and chemoattractant-induced firm adhesion in rat mesenteric venules in vivo.</data>
+  <data key="d20">10.1038/sj.bjp.0701454</data>
+  <data key="d21">9384507</data>
+  <data key="d22">Locally administered heparin reduced leukocyte rolling in vivo.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26">inhaled/local heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_LOCAL" target="D_UC" id="E082">
+  <data key="d7">E082</data>
+  <data key="d8">improves</data>
+  <data key="d9">Favourable but limited</data>
+  <data key="d10">Direct</data>
+  <data key="d11">5</data>
+  <data key="d12">Colon-release clinical trial and systematic review</data>
+  <data key="d13">Active left-sided ulcerative colitis</data>
+  <data key="d14">Human</data>
+  <data key="d15">ulcerative colitis</data>
+  <data key="d16">intestinal mucosa</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">103; 104</data>
+  <data key="d19">Clinical trial: oral colon-release parnaparin sodium tablets (CB-01-05 MMX) for active left-sided ulcerative colitis. | Unfractionated or low-molecular weight heparin for induction of remission in ulcerative colitis</data>
+  <data key="d20">10.1111/j.1365-2036.2009.04194.x; 10.1002/14651858.cd006774.pub4</data>
+  <data key="d21">19891665; 35658167</data>
+  <data key="d22">Colon-release parnaparin improved clinical remission in a small trial, whereas systemic delivery was not beneficial; confirmation is required.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26">inhaled/local heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_IMMOB" target="S_PRESENT" id="E009">
+  <data key="d7">E009</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Human whole-blood biomaterial assay</data>
+  <data key="d13">Non-anticoagulated human blood on heparin surfaces</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">vascular/biomaterial-associated inflammation</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">117</data>
+  <data key="d19">Optimal heparin surface concentration and antithrombin binding capacity as evaluated with human non-anticoagulated blood in vitro.</data>
+  <data key="d20">10.1002/jbm.a.10104</data>
+  <data key="d21">14566786</data>
+  <data key="d22">Surface immobilisation and heparin density determined antithrombin binding and blood compatibility.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_IMMOB" target="C_MAT" id="E013">
+  <data key="d7">E013</data>
+  <data key="d8">localizes_to</data>
+  <data key="d9">Localisation</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Human whole-blood biomaterial assay</data>
+  <data key="d13">Heparin-coated surface</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">vascular/biomaterial-associated inflammation</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">117</data>
+  <data key="d19">Optimal heparin surface concentration and antithrombin binding capacity as evaluated with human non-anticoagulated blood in vitro.</data>
+  <data key="d20">10.1002/jbm.a.10104</data>
+  <data key="d21">14566786</data>
+  <data key="d22">Immobilised heparin remained at the blood–material interface.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_IMMOB" target="T_AT" id="E014">
+  <data key="d7">E014</data>
+  <data key="d8">binds</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Human whole-blood surface assay</data>
+  <data key="d13">Heparin-coated materials</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">vascular/biomaterial-associated inflammation</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">117</data>
+  <data key="d19">Optimal heparin surface concentration and antithrombin binding capacity as evaluated with human non-anticoagulated blood in vitro.</data>
+  <data key="d20">10.1002/jbm.a.10104</data>
+  <data key="d21">14566786</data>
+  <data key="d22">Antithrombin binding capacity varied with immobilised heparin surface concentration.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">immobilized/material-integrated heparin</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_IMMOB" target="D_BIO" id="E087">
+  <data key="d7">E087</data>
+  <data key="d8">tested_in</data>
+  <data key="d9">Favourable mechanistic</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Human whole-blood biomaterial assay</data>
+  <data key="d13">Heparinised blood-contacting surfaces</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">vascular/biomaterial-associated inflammation</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">117</data>
+  <data key="d19">Optimal heparin surface concentration and antithrombin binding capacity as evaluated with human non-anticoagulated blood in vitro.</data>
+  <data key="d20">10.1002/jbm.a.10104</data>
+  <data key="d21">14566786</data>
+  <data key="d22">Immobilised heparin improved local blood compatibility with effects on coagulation, complement and platelet activation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">complement regulation</data>
+  <data key="d26">immobilized/material-integrated heparin</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_HYDRO" target="T_CCL2" id="E023">
+  <data key="d7">E023</data>
+  <data key="d8">binds</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Ex vivo wound-fluid capture and mouse wound model</data>
+  <data key="d13">Human wound fluid and diabetic wound model</data>
+  <data key="d14">Human ex vivo / mouse</data>
+  <data key="d15">chronic wound inflammation</data>
+  <data key="d16">extracellular matrix</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">116</data>
+  <data key="d19">Glycosaminoglycan-based hydrogels capture inflammatory chemokines and rescue defective wound healing in mice.</data>
+  <data key="d20">10.1126/scitranslmed.aai9044</data>
+  <data key="d21">28424334</data>
+  <data key="d22">A starPEG–heparin hydrogel captured MCP-1/CCL2 and other chemokines and reduced inflammatory-cell migration.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">chemokine organization</data>
+  <data key="d26">immobilized/material-integrated heparin</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_ADS" target="T_PF4" id="E070">
+  <data key="d7">E070</data>
+  <data key="d8">binds</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Ex vivo adsorption study</data>
+  <data key="d13">Patient plasma and recirculation experiments</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">immunothrombosis</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">118</data>
+  <data key="d19">Heparin-Functionalized Adsorbents Eliminate Central Effectors of Immunothrombosis, including Platelet Factor 4, High-Mobility Group Box 1 Protein and Histones.</data>
+  <data key="d20">10.3390/ijms23031823</data>
+  <data key="d21">35163743</data>
+  <data key="d22">Heparin-functionalised adsorbents depleted PF4 and PF4-positive platelet-derived extracellular vesicles.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">immobilized/material-integrated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_ADS" target="T_HIST" id="E071">
+  <data key="d7">E071</data>
+  <data key="d8">binds</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Ex vivo adsorption study</data>
+  <data key="d13">Patient plasma and recirculation experiments</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">immunothrombosis</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">118</data>
+  <data key="d19">Heparin-Functionalized Adsorbents Eliminate Central Effectors of Immunothrombosis, including Platelet Factor 4, High-Mobility Group Box 1 Protein and Histones.</data>
+  <data key="d20">10.3390/ijms23031823</data>
+  <data key="d21">35163743</data>
+  <data key="d22">Heparin-functionalised adsorbents removed circulating histones.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">immobilized/material-integrated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_ADS" target="T_HMGB1" id="E072">
+  <data key="d7">E072</data>
+  <data key="d8">binds</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Ex vivo adsorption study</data>
+  <data key="d13">Patient plasma and recirculation experiments</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">immunothrombosis</data>
+  <data key="d16">blood–material interface</data>
+  <data key="d17">immobilised/material-integrated heparin</data>
+  <data key="d18">118</data>
+  <data key="d19">Heparin-Functionalized Adsorbents Eliminate Central Effectors of Immunothrombosis, including Platelet Factor 4, High-Mobility Group Box 1 Protein and Histones.</data>
+  <data key="d20">10.3390/ijms23031823</data>
+  <data key="d21">35163743</data>
+  <data key="d22">Heparin-functionalised adsorbents removed HMGB1 from tested plasma systems.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26">immobilized/material-integrated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_APAC" target="S_MULTI" id="E008">
+  <data key="d7">E008</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Structural association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Flow-based platelet and coagulation experiments</data>
+  <data key="d13">Platelet–collagen flow system</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">vascular injury</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">APAC</data>
+  <data key="d18">120</data>
+  <data key="d19">Dual antiplatelet and anticoagulant (APAC) heparin proteoglycan mimetic with shear-dependent effects on platelet-collagen binding and thrombin generation.</data>
+  <data key="d20">10.1016/j.thromres.2018.07.026</data>
+  <data key="d21">30071479</data>
+  <data key="d22">APAC presents multiple heparin chains on a protein core and displays shear-dependent antiplatelet and anticoagulant activity.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="F_APAC" target="T_PLT" id="E066">
+  <data key="d7">E066</data>
+  <data key="d8">reduces</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Flow experiments and murine vascular injury</data>
+  <data key="d13">Platelet deposition under flow and injured artery</data>
+  <data key="d14">Human ex vivo / mouse</data>
+  <data key="d15">vascular injury</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">APAC</data>
+  <data key="d18">120; 121</data>
+  <data key="d19">Dual antiplatelet and anticoagulant (APAC) heparin proteoglycan mimetic with shear-dependent effects on platelet-collagen binding and thrombin generation. | Intravenously administered APAC, a dual AntiPlatelet AntiCoagulant, targets arterial injury site to inhibit platelet thrombus formation and tissue factor activity in mice.</data>
+  <data key="d20">10.1016/j.thromres.2018.07.026; 10.1016/j.thromres.2023.04.010</data>
+  <data key="d21">30071479; 37331119</data>
+  <data key="d22">APAC reduced platelet deposition under flow and localised to collagen-exposing vascular injury in mice.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="F_APAC" target="T_COAG" id="E067">
+  <data key="d7">E067</data>
+  <data key="d8">reduces</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Flow-based coagulation assay</data>
+  <data key="d13">Thrombin generation and fibrin deposition</data>
+  <data key="d14">Human ex vivo</data>
+  <data key="d15">vascular injury</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">APAC</data>
+  <data key="d18">120</data>
+  <data key="d19">Dual antiplatelet and anticoagulant (APAC) heparin proteoglycan mimetic with shear-dependent effects on platelet-collagen binding and thrombin generation.</data>
+  <data key="d20">10.1016/j.thromres.2018.07.026</data>
+  <data key="d21">30071479</data>
+  <data key="d22">APAC reduced thrombin generation and fibrin deposition in flow systems.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="S_6OS" target="T_PSEL" id="E025">
+  <data key="d7">E025</data>
+  <data key="d8">requires</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Structure–activity analysis in cell and animal inflammation models</data>
+  <data key="d13">Selectin binding and leukocyte recruitment</data>
+  <data key="d14">Mouse / cellular</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">modified heparins</data>
+  <data key="d18">9</data>
+  <data key="d19">Heparin's anti-inflammatory effects require glucosamine 6-O-sulfation and are mediated by blockade of L- and P-selectins.</data>
+  <data key="d20">10.1172/jci14996</data>
+  <data key="d21">12093896</data>
+  <data key="d22">Glucosamine 6-O-sulfation was required for heparin-mediated inhibition of P- and L-selectin-dependent inflammation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26">NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_AT" target="T_FXA" id="E015">
+  <data key="d7">E015</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">1</data>
+  <data key="d12">Established biochemical mechanism summarised in a cited review</data>
+  <data key="d13">Purified coagulation proteins</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">13</data>
+  <data key="d19">Anticoagulant and signaling functions of antithrombin</data>
+  <data key="d20">10.1111/jth.15052</data>
+  <data key="d21">32780936</data>
+  <data key="d22">Heparin-bound antithrombin inhibits factor Xa through the canonical pentasaccharide-dependent mechanism.</data>
+  <data key="d23">High</data>
+  <data key="d24">Reference 13 is a mechanistic review; this edge is not treated as primary direct evidence.</data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">UFH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="T_AT" target="T_THR" id="E016">
+  <data key="d7">E016</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">1</data>
+  <data key="d12">Established biochemical mechanism summarised in a cited review</data>
+  <data key="d13">Purified coagulation proteins</data>
+  <data key="d14">Not applicable</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">13</data>
+  <data key="d19">Anticoagulant and signaling functions of antithrombin</data>
+  <data key="d20">10.1111/jth.15052</data>
+  <data key="d21">32780936</data>
+  <data key="d22">Longer heparin chains enable antithrombin-mediated thrombin inhibition by bridging the protease and inhibitor.</data>
+  <data key="d23">High</data>
+  <data key="d24">Reference 13 is a mechanistic review; this edge is not treated as primary direct evidence.</data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">UFH</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="T_HPSE" target="T_HS" id="E034">
+  <data key="d7">E034</data>
+  <data key="d8">disrupts</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Genetic and pharmacological experimental sepsis study</data>
+  <data key="d13">Pulmonary endothelial glycocalyx</data>
+  <data key="d14">Mouse</data>
+  <data key="d15">sepsis-associated lung injury</data>
+  <data key="d16">endothelial glycocalyx</data>
+  <data key="d17">endogenous HS</data>
+  <data key="d18">68</data>
+  <data key="d19">The pulmonary endothelial glycocalyx regulates neutrophil adhesion and lung injury during experimental sepsis.</data>
+  <data key="d20">10.1038/nm.2843</data>
+  <data key="d21">22820644</data>
+  <data key="d22">TNF-dependent heparanase activation caused loss of pulmonary endothelial heparan sulfate.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_HPSE" target="D_COVID" id="E040">
+  <data key="d7">E040</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Association</data>
+  <data key="d10">Direct</data>
+  <data key="d11">4</data>
+  <data key="d12">Human mechanistic observational study</data>
+  <data key="d13">Patients with COVID-19</data>
+  <data key="d14">Human</data>
+  <data key="d15">COVID-19</data>
+  <data key="d16">circulation / endothelial glycocalyx</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">72</data>
+  <data key="d19">Heparanase Is a Putative Mediator of Endothelial Glycocalyx Damage in COVID-19 - A Proof-of-Concept Study.</data>
+  <data key="d20">10.3389/fimmu.2022.916512</data>
+  <data key="d21">35757776</data>
+  <data key="d22">Increased heparanase activity was associated with glycocalyx damage in patients with COVID-19.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_HS" target="M_CHEMPRES" id="E022">
+  <data key="d7">E022</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">Cell migration and extracellular-matrix interaction studies</data>
+  <data key="d13">Leukocyte chemotaxis and matrix-bound chemokines</data>
+  <data key="d14">Human cells / in vitro</data>
+  <data key="d15">inflammatory-cell recruitment</data>
+  <data key="d16">vascular surface / extracellular matrix</data>
+  <data key="d17">endogenous HS</data>
+  <data key="d18">59; 61; 62</data>
+  <data key="d19">Glycosaminoglycans located on neutrophils and monocytes impact on CXCL8- and CCL2-induced cell migration. | Heparin Specifically Interacts with Basic BBXB Motifs of the Chemokine CCL21 to Define CCR7 Signaling. | Chemokine CXCL4 interactions with extracellular matrix proteoglycans mediate widespread immune cell recruitment independent of chemokine receptors.</data>
+  <data key="d20">10.1016/j.cyto.2021.155503; 10.3390/ijms24021670; 10.1016/j.celrep.2022.111930</data>
+  <data key="d21">33781652; 36675182; 36640356</data>
+  <data key="d22">Glycosaminoglycans organise CXCL8, CCL2, CCL21 and CXCL4 presentation in spatially restricted compartments.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">chemokine organization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_SYN1" target="D_SEPSIS" id="E039">
+  <data key="d7">E039</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Association</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">4</data>
+  <data key="d12">Human biomarker context supported by mechanistic animal work</data>
+  <data key="d13">Patients and experimental sepsis</data>
+  <data key="d14">Human / mouse</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">circulation and endothelial glycocalyx</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">68</data>
+  <data key="d19">The pulmonary endothelial glycocalyx regulates neutrophil adhesion and lung injury during experimental sepsis.</data>
+  <data key="d20">10.1038/nm.2843</data>
+  <data key="d21">22820644</data>
+  <data key="d22">Syndecan-1 shedding marks glycocalyx injury in sepsis, but is not by itself proof of a heparin-responsive mechanism.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="T_CCL5" target="T_HS" id="E021">
+  <data key="d7">E021</data>
+  <data key="d8">requires</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Biophysical, cellular and mouse experiments</data>
+  <data key="d13">CCL5 condensation and recruitment</data>
+  <data key="d14">Mouse and in vitro</data>
+  <data key="d15">inflammatory-cell recruitment</data>
+  <data key="d16">extracellular matrix</data>
+  <data key="d17">endogenous HS</data>
+  <data key="d18">48</data>
+  <data key="d19">Heparan sulfate-dependent phase separation of CCL5 and its chemotactic activity.</data>
+  <data key="d20">10.7554/elife.93871</data>
+  <data key="d21">38949655</data>
+  <data key="d22">Cell-surface heparan sulfate supported CCL5 condensate formation and chemotactic activity.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">chemokine organization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_HMGB1" target="T_LPS" id="E050">
+  <data key="d7">E050</data>
+  <data key="d8">binds</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and murine sepsis experiments</data>
+  <data key="d13">HMGB1–LPS complexes</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">extracellular space</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">81</data>
+  <data key="d19">The Endotoxin Delivery Protein HMGB1 Mediates Caspase-11-Dependent Lethality in Sepsis.</data>
+  <data key="d20">10.1016/j.immuni.2018.08.016</data>
+  <data key="d21">30314759</data>
+  <data key="d22">HMGB1 bound extracellular LPS and enabled its intracellular delivery.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_HMGB1" target="T_RAGE" id="E051">
+  <data key="d7">E051</data>
+  <data key="d8">delivers_to</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and murine sepsis experiments</data>
+  <data key="d13">RAGE-dependent uptake</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">cell surface to endolysosome</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">81</data>
+  <data key="d19">The Endotoxin Delivery Protein HMGB1 Mediates Caspase-11-Dependent Lethality in Sepsis.</data>
+  <data key="d20">10.1016/j.immuni.2018.08.016</data>
+  <data key="d21">30314759</data>
+  <data key="d22">HMGB1–LPS complexes were internalised through RAGE-dependent uptake.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_HIST" target="M_GLYCO" id="E043">
+  <data key="d7">E043</data>
+  <data key="d8">disrupts</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Experimental acute lung injury</data>
+  <data key="d13">Pulmonary endothelium</data>
+  <data key="d14">Mouse</data>
+  <data key="d15">acute lung injury</data>
+  <data key="d16">endothelial glycocalyx</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">55; 73</data>
+  <data key="d19">Circulating extracellular histones exacerbate acute lung injury by augmenting pulmonary endothelial dysfunction via TLR4-dependent mechanism. | Unfractionated heparin attenuated histone-induced pulmonary endothelial glycocalyx injury through Ang/Tie2 pathway.</data>
+  <data key="d20">10.1152/ajplung.00072.2022; 10.1186/s12950-025-00437-x</data>
+  <data key="d21">35852995; 39962477</data>
+  <data key="d22">Extracellular histones damaged the pulmonary endothelial glycocalyx and increased permeability.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_HIST" target="O_PERM" id="E044">
+  <data key="d7">E044</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and animal lung-injury studies</data>
+  <data key="d13">Pulmonary endothelial cells and lung</data>
+  <data key="d14">Mouse / human cells</data>
+  <data key="d15">acute lung injury</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">55; 74</data>
+  <data key="d19">Circulating extracellular histones exacerbate acute lung injury by augmenting pulmonary endothelial dysfunction via TLR4-dependent mechanism. | Mechanisms of pulmonary endothelial permeability and inflammation caused by extracellular histone subunits H3 and H4.</data>
+  <data key="d20">10.1152/ajplung.00072.2022; 10.1096/fj.202200303rr</data>
+  <data key="d21">35852995; 35969180</data>
+  <data key="d22">Extracellular histones increased pulmonary endothelial permeability through receptor-dependent injury mechanisms.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="T_NET" target="M_IMMTH" id="E046">
+  <data key="d7">E046</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">4</data>
+  <data key="d12">Human tissue/mechanistic study</data>
+  <data key="d13">COVID-19 patient material and mechanistic assays</data>
+  <data key="d14">Human</data>
+  <data key="d15">COVID-19</data>
+  <data key="d16">circulation / vascular surface</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">80</data>
+  <data key="d19">Complement and tissue factor-enriched neutrophil extracellular traps are key drivers in COVID-19 immunothrombosis.</data>
+  <data key="d20">10.1172/jci141374</data>
+  <data key="d21">32759504</data>
+  <data key="d22">Complement- and tissue-factor-enriched NETs contributed to COVID-19 immunothrombosis.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_PF4" target="O_PF4IC" id="E048">
+  <data key="d7">E048</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">2</data>
+  <data key="d12">In vitro PF4–heparin complex studies</data>
+  <data key="d13">PF4, platelets and antibody binding</data>
+  <data key="d14">Human in vitro</data>
+  <data key="d15">HIT</data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH / ODSH</data>
+  <data key="d18">133; 134</data>
+  <data key="d19">Heparin-induced thrombocytopenia: in vitro studies on the interaction of dabigatran, rivaroxaban, and low-sulfated heparin, with platelet factor 4 and anti-PF4/heparin antibodies. | Disruption of PF4/H multimolecular complex formation with a minimally anticoagulant heparin (ODSH).</data>
+  <data key="d20">10.1182/blood-2011-05-353391; 10.1160/th11-11-0795</data>
+  <data key="d21">22049520; 22318669</data>
+  <data key="d22">PF4–heparin multimolecular complexes supported antibody binding and platelet activation; ODSH disrupted preformed complexes in vitro.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">UFH;ODSH / dociparstat</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="T_C1I" target="T_COMP" id="E061">
+  <data key="d7">E061</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical complement assay</data>
+  <data key="d13">Serum classical pathway</data>
+  <data key="d14">Human serum</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">85</data>
+  <data key="d19">A postulated mechanism for heparin's potentiation of C1 inhibitor function.</data>
+  <data key="d20">10.1016/0161-5890(82)90342-x</data>
+  <data key="d21">7099168</data>
+  <data key="d22">C1-inhibitor potentiation mediated the observed suppression of early classical-complement activation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">complement regulation</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_FH" target="T_COMP" id="E062">
+  <data key="d7">E062</data>
+  <data key="d8">inhibits</data>
+  <data key="d9">Inhibitory</data>
+  <data key="d10">Direct</data>
+  <data key="d11">1</data>
+  <data key="d12">Biochemical complement assay</data>
+  <data key="d13">Alternative complement pathway</data>
+  <data key="d14">Human proteins / serum</data>
+  <data key="d15"></data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">UFH</data>
+  <data key="d18">87</data>
+  <data key="d19">Potentiation of factor H by heparin: a rate-limiting mechanism for inhibition of the alternative complement pathway.</data>
+  <data key="d20">10.1016/0161-5890(83)90139-6</data>
+  <data key="d21">6228720</data>
+  <data key="d22">Heparin-potentiated factor H limited alternative-pathway activation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">complement regulation</data>
+  <data key="d26">UFH</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_COMP" target="M_COAGX" id="E063">
+  <data key="d7">E063</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">4</data>
+  <data key="d12">Human tissue and mechanistic study</data>
+  <data key="d13">COVID-19 immunothrombi</data>
+  <data key="d14">Human</data>
+  <data key="d15">COVID-19</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">80</data>
+  <data key="d19">Complement and tissue factor-enriched neutrophil extracellular traps are key drivers in COVID-19 immunothrombosis.</data>
+  <data key="d20">10.1172/jci141374</data>
+  <data key="d21">32759504</data>
+  <data key="d22">Complement-rich NETs co-localised with tissue factor and linked innate inflammation to coagulation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="T_PLT" target="M_PLTLEU" id="E064">
+  <data key="d7">E064</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">Selectin-dependent adhesion and inflammation experiments</data>
+  <data key="d13">Platelet/leukocyte adhesion context</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">NAH</data>
+  <data key="d18">64</data>
+  <data key="d19">Inhibition of selectin-mediated cell adhesion and prevention of acute inflammation by nonanticoagulant sulfated saccharides. Studies with carboxyl-reduced and sulfated heparin and with trestatin a sulfate.</data>
+  <data key="d20">10.1074/jbc.m001257200</data>
+  <data key="d21">10944519</data>
+  <data key="d22">P-selectin-dependent platelet–leukocyte interactions contribute to vascular inflammatory recruitment.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_ROLL" target="M_ADH" id="E029">
+  <data key="d7">E029</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">Intravital microscopy</data>
+  <data key="d13">Sequential leukocyte recruitment at venules</data>
+  <data key="d14">Rat</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">63</data>
+  <data key="d19">Inhibitory effect of locally administered heparin on leukocyte rolling and chemoattractant-induced firm adhesion in rat mesenteric venules in vivo.</data>
+  <data key="d20">10.1038/sj.bjp.0701454</data>
+  <data key="d21">9384507</data>
+  <data key="d22">Reduced rolling was accompanied by reduced chemoattractant-induced firm adhesion, consistent with sequential recruitment.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="M_ADH" target="M_RECRUIT" id="E030">
+  <data key="d7">E030</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">Intravital and acute-inflammation experiments</data>
+  <data key="d13">Vascular leukocyte recruitment</data>
+  <data key="d14">Rat / mouse</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">heparin / NAH</data>
+  <data key="d18">63; 64</data>
+  <data key="d19">Inhibitory effect of locally administered heparin on leukocyte rolling and chemoattractant-induced firm adhesion in rat mesenteric venules in vivo. | Inhibition of selectin-mediated cell adhesion and prevention of acute inflammation by nonanticoagulant sulfated saccharides. Studies with carboxyl-reduced and sulfated heparin and with trestatin a sulfate.</data>
+  <data key="d20">10.1038/sj.bjp.0701454; 10.1074/jbc.m001257200</data>
+  <data key="d21">9384507; 10944519</data>
+  <data key="d22">Selectin-dependent rolling and adhesion support subsequent leukocyte recruitment into inflamed tissue.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="M_RECRUIT" target="O_INFIL" id="E031">
+  <data key="d7">E031</data>
+  <data key="d8">increases_risk_of</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">In vivo inflammation experiments</data>
+  <data key="d13">Inflamed vascular beds</data>
+  <data key="d14">Rat / mouse</data>
+  <data key="d15">acute inflammation</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">heparin / NAH</data>
+  <data key="d18">63; 64</data>
+  <data key="d19">Inhibitory effect of locally administered heparin on leukocyte rolling and chemoattractant-induced firm adhesion in rat mesenteric venules in vivo. | Inhibition of selectin-mediated cell adhesion and prevention of acute inflammation by nonanticoagulant sulfated saccharides. Studies with carboxyl-reduced and sulfated heparin and with trestatin a sulfate.</data>
+  <data key="d20">10.1038/sj.bjp.0701454; 10.1074/jbc.m001257200</data>
+  <data key="d21">9384507; 10944519</data>
+  <data key="d22">Recruitment at the vascular interface increases inflammatory-cell infiltration.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">selectin-mediated recruitment</data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="M_GLYCO" target="M_BARRIER" id="E037">
+  <data key="d7">E037</data>
+  <data key="d8">preserves</data>
+  <data key="d9">Protective</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">Animal lung-injury and transplant experiments</data>
+  <data key="d13">Pulmonary endothelial barrier</data>
+  <data key="d14">Mouse / rat</data>
+  <data key="d15">sepsis and lung injury</data>
+  <data key="d16">endothelial glycocalyx</data>
+  <data key="d17">UFH / NAH</data>
+  <data key="d18">68; 70; 71</data>
+  <data key="d19">The pulmonary endothelial glycocalyx regulates neutrophil adhesion and lung injury during experimental sepsis. | Heparanase inhibition preserves the endothelial glycocalyx in lung grafts and improves lung preservation and transplant outcomes. | Both UFH and NAH alleviate shedding of endothelial glycocalyx and coagulopathy in LPS-induced sepsis.</data>
+  <data key="d20">10.1038/nm.2843; 10.1038/s41598-021-91777-0; 10.3892/etm.2019.8285</data>
+  <data key="d21">22820644; 34112915; 32010252</data>
+  <data key="d22">Glycocalyx preservation was associated with lower permeability, leukocyte adhesion and lung injury.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">UFH;NAH / N-acetylated heparin</data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_BARRIER" target="O_PERM" id="E038">
+  <data key="d7">E038</data>
+  <data key="d8">reduces</data>
+  <data key="d9">Protective</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Animal lung-injury experiments</data>
+  <data key="d13">Pulmonary vascular barrier</data>
+  <data key="d14">Mouse / rat</data>
+  <data key="d15">acute lung injury</data>
+  <data key="d16">endothelial glycocalyx / airway</data>
+  <data key="d17">UFH / NAH / ODSH</data>
+  <data key="d18">68; 70; 92</data>
+  <data key="d19">The pulmonary endothelial glycocalyx regulates neutrophil adhesion and lung injury during experimental sepsis. | Heparanase inhibition preserves the endothelial glycocalyx in lung grafts and improves lung preservation and transplant outcomes. | Protective Effect of Low 2-O, 3-O Desulfated Heparin (ODSH) Against LPS-Induced Acute Lung Injury in Mice.</data>
+  <data key="d20">10.1038/nm.2843; 10.1038/s41598-021-91777-0; 10.3390/biom15091232</data>
+  <data key="d21">22820644; 34112915; 41008539</data>
+  <data key="d22">Barrier-preserving heparin formats reduced vascular leakage or endothelial permeability.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">heparanase/glycocalyx protection</data>
+  <data key="d26">UFH;NAH / N-acetylated heparin;ODSH / dociparstat</data>
+  <data key="d27">No</data>
+</edge>
+<edge source="M_HMGBLPS" target="M_CYTLPS" id="E054">
+  <data key="d7">E054</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and murine sepsis experiments</data>
+  <data key="d13">Endolysosomal delivery of LPS</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">cytosol</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">81</data>
+  <data key="d19">The Endotoxin Delivery Protein HMGB1 Mediates Caspase-11-Dependent Lethality in Sepsis.</data>
+  <data key="d20">10.1016/j.immuni.2018.08.016</data>
+  <data key="d21">30314759</data>
+  <data key="d22">HMGB1-assisted delivery allowed LPS to gain cytosolic access.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_CYTLPS" target="M_CASP11" id="E055">
+  <data key="d7">E055</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and murine endotoxaemia studies</data>
+  <data key="d13">Cytosolic LPS sensing</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">cytosol</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">81; 83</data>
+  <data key="d19">The Endotoxin Delivery Protein HMGB1 Mediates Caspase-11-Dependent Lethality in Sepsis. | An 8-Hydroxy-Quinoline Derivative Protects Against Lipopolysaccharide-Induced Lethality in Endotoxemia by Inhibiting HMGB1-Mediated Caspase-11 Signaling.</data>
+  <data key="d20">10.1016/j.immuni.2018.08.016; 10.3389/fphar.2021.673818</data>
+  <data key="d21">30314759; 34093202</data>
+  <data key="d22">Cytosolic LPS activated caspase-11-dependent inflammatory signalling.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_CASP11" target="M_GSDMD" id="E056">
+  <data key="d7">E056</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Biochemical, cellular and murine sepsis experiments</data>
+  <data key="d13">Caspase-11/GSDMD pathway</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">cytosol</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">56</data>
+  <data key="d19">Heparin prevents caspase-11-dependent septic lethality independent of anticoagulant properties.</data>
+  <data key="d20">10.1016/j.immuni.2021.01.007</data>
+  <data key="d21">33561388</data>
+  <data key="d22">Caspase-11 activation was followed by GSDMD cleavage in HMGB1–LPS-driven inflammation.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_GSDMD" target="M_PYRO" id="E057">
+  <data key="d7">E057</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Positive</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">Cellular and murine sepsis experiments</data>
+  <data key="d13">GSDMD-dependent membrane injury</data>
+  <data key="d14">Mouse / cells</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">cytosol</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">56</data>
+  <data key="d19">Heparin prevents caspase-11-dependent septic lethality independent of anticoagulant properties.</data>
+  <data key="d20">10.1016/j.immuni.2021.01.007</data>
+  <data key="d21">33561388</data>
+  <data key="d22">GSDMD cleavage is the terminal pore-forming step linking caspase-11 activation to pyroptotic injury.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_PYRO" target="O_ORGAN" id="E058">
+  <data key="d7">E058</data>
+  <data key="d8">increases_risk_of</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">3</data>
+  <data key="d12">Murine sepsis experiment</data>
+  <data key="d13">Septic lethality and inflammatory injury</data>
+  <data key="d14">Mouse</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">systemic</data>
+  <data key="d17">NAH / heparin</data>
+  <data key="d18">56</data>
+  <data key="d19">Heparin prevents caspase-11-dependent septic lethality independent of anticoagulant properties.</data>
+  <data key="d20">10.1016/j.immuni.2021.01.007</data>
+  <data key="d21">33561388</data>
+  <data key="d22">Blocking the upstream HMGB1–LPS axis reduced caspase-11-dependent septic lethality, linking pyroptotic signalling to organ-level harm.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25">histone/HMGB1/NET neutralization</data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="M_PLTLEU" target="M_IMMTH" id="E065">
+  <data key="d7">E065</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">4</data>
+  <data key="d12">Experimental and human mechanistic evidence</data>
+  <data key="d13">HIT and COVID-19 immunothrombosis</data>
+  <data key="d14">Human / mouse</data>
+  <data key="d15">HIT and COVID-19</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">heparin exposure / not format-specific</data>
+  <data key="d18">79; 80</data>
+  <data key="d19">Inhibition of NADPH oxidase blocks NETosis and reduces thrombosis in heparin-induced thrombocytopenia. | Complement and tissue factor-enriched neutrophil extracellular traps are key drivers in COVID-19 immunothrombosis.</data>
+  <data key="d20">10.1182/bloodadvances.2020003093; 10.1172/jci141374</data>
+  <data key="d21">34478504; 32759504</data>
+  <data key="d22">Platelet–neutrophil and NET-associated interactions supported thrombus formation in inflammatory settings.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_COAGX" target="M_IMMTH" id="E068">
+  <data key="d7">E068</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">4</data>
+  <data key="d12">Human mechanistic study</data>
+  <data key="d13">COVID-19 immunothrombi and coagulation–NET framework</data>
+  <data key="d14">Human</data>
+  <data key="d15">COVID-19</data>
+  <data key="d16">circulation / vascular surface</data>
+  <data key="d17">not format-specific</data>
+  <data key="d18">80</data>
+  <data key="d19">Complement and tissue factor-enriched neutrophil extracellular traps are key drivers in COVID-19 immunothrombosis.</data>
+  <data key="d20">10.1172/jci141374</data>
+  <data key="d21">32759504</data>
+  <data key="d22">Coagulation factors, NETs and complement form a reinforcing immunothrombotic circuit.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="M_IMMTH" target="O_THROMB" id="E069">
+  <data key="d7">E069</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">4</data>
+  <data key="d12">Experimental and human mechanistic studies</data>
+  <data key="d13">HIT and COVID-19</data>
+  <data key="d14">Human / mouse</data>
+  <data key="d15">HIT and COVID-19</data>
+  <data key="d16">vascular surface</data>
+  <data key="d17">heparin exposure / not format-specific</data>
+  <data key="d18">79; 80</data>
+  <data key="d19">Inhibition of NADPH oxidase blocks NETosis and reduces thrombosis in heparin-induced thrombocytopenia. | Complement and tissue factor-enriched neutrophil extracellular traps are key drivers in COVID-19 immunothrombosis.</data>
+  <data key="d20">10.1182/bloodadvances.2020003093; 10.1172/jci141374</data>
+  <data key="d21">34478504; 32759504</data>
+  <data key="d22">NET- and complement-linked immunothrombosis promoted thrombosis in HIT models and human COVID-19 tissues.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="D_SEPSIS" target="O_MORT" id="E074">
+  <data key="d7">E074</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Mixed</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">5</data>
+  <data key="d12">Meta-analyses and observational cohort</data>
+  <data key="d13">Adults with sepsis</data>
+  <data key="d14">Human</data>
+  <data key="d15">sepsis</data>
+  <data key="d16">systemic</data>
+  <data key="d17">UFH</data>
+  <data key="d18">89; 90; 91</data>
+  <data key="d19">Unfractionated heparin improves the clinical efficacy in adult sepsis patients: a systematic review and meta-analysis. | Heparin therapy in sepsis and sepsis-associated disseminated intravascular coagulation: a systematic review and meta-analysis. | Unfractionated Heparin Enhances Sepsis Prognosis Through Inhibiting Drp1-Mediated Mitochondrial Quality Imbalance.</data>
+  <data key="d20">10.1186/s12871-021-01545-w; 10.1186/s12959-024-00653-0; 10.1002/advs.202407705</data>
+  <data key="d21">35062871; 39350146; 39447130</data>
+  <data key="d22">One meta-analysis and a retrospective cohort were favourable, whereas a more restrictive meta-analysis did not establish a mortality benefit.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="D_ARDS" target="O_MORT" id="E077">
+  <data key="d7">E077</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Mixed</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">5</data>
+  <data key="d12">Randomised trial and meta-analysis</data>
+  <data key="d13">Adults with acute respiratory failure</data>
+  <data key="d14">Human</data>
+  <data key="d15">ARDS</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">93; 95</data>
+  <data key="d19">Nebulised heparin for patients with or at risk of acute respiratory distress syndrome: a multicentre, randomised, double-blind, placebo-controlled phase 3 trial. | Nebulized Heparin in Adults With Acute Respiratory Failure: A Meta-Analysis of Randomized Trials.</data>
+  <data key="d20">10.1016/s2213-2600(20)30470-7; 10.1097/ccm.0000000000007161</data>
+  <data key="d21">33493448; 42148826</data>
+  <data key="d22">Clinical results varied by study, endpoint and respiratory-failure aetiology.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">Yes</data>
+</edge>
+<edge source="D_COVID" target="O_ORGAN" id="E079">
+  <data key="d7">E079</data>
+  <data key="d8">associated_with</data>
+  <data key="d9">Favourable</data>
+  <data key="d10">Indirect</data>
+  <data key="d11">5</data>
+  <data key="d12">Interventional clinical evidence</data>
+  <data key="d13">Hospitalised patients with COVID-19</data>
+  <data key="d14">Human</data>
+  <data key="d15">COVID-19</data>
+  <data key="d16">alveolar/airway compartment</data>
+  <data key="d17">inhaled/local heparin</data>
+  <data key="d18">98; 99</data>
+  <data key="d19">Efficacy of inhaled nebulised unfractionated heparin to prevent intubation or death in hospitalised patients with COVID-19: an investigator-initiated international meta-trial of randomised clinical studies. | Nebulized enriched heparin improves respiratory parameters in patients with COVID-19: a phase I/II randomized and triple-blind clinical trial.</data>
+  <data key="d20">10.1016/j.eclinm.2025.103339; 10.1038/s41598-024-70064-8</data>
+  <data key="d21">41181828; 39191809</data>
+  <data key="d22">Respiratory signals cannot be attributed to a single antiviral mechanism because pulmonary inflammation and thrombosis are also affected.</data>
+  <data key="d23">Moderate</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27">No</data>
+</edge>
+<edge source="O_HIT" target="T_NET" id="E047">
+  <data key="d7">E047</data>
+  <data key="d8">promotes</data>
+  <data key="d9">Harmful</data>
+  <data key="d10">Direct</data>
+  <data key="d11">3</data>
+  <data key="d12">Experimental HIT study</data>
+  <data key="d13">PF4/heparin immune-complex models</data>
+  <data key="d14">Mouse / human cells</data>
+  <data key="d15">HIT</data>
+  <data key="d16">circulation/plasma</data>
+  <data key="d17">heparin exposure</data>
+  <data key="d18">79</data>
+  <data key="d19">Inhibition of NADPH oxidase blocks NETosis and reduces thrombosis in heparin-induced thrombocytopenia.</data>
+  <data key="d20">10.1182/bloodadvances.2020003093</data>
+  <data key="d21">34478504</data>
+  <data key="d22">NETosis contributed to thrombosis in experimental heparin-induced thrombocytopenia.</data>
+  <data key="d23">High</data>
+  <data key="d24"></data>
+  <data key="d25">coagulation/immunothrombosis</data>
+  <data key="d26">UFH</data>
+  <data key="d27">No</data>
+</edge>
+</graph></graphml>
